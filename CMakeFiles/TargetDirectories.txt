@@ -1,9 +1,0 @@
-/testgit/HelloWorld/CMakeFiles/install/strip.dir
-/testgit/HelloWorld/CMakeFiles/install/local.dir
-/testgit/HelloWorld/CMakeFiles/rebuild_cache.dir
-/testgit/HelloWorld/CMakeFiles/edit_cache.dir
-/testgit/HelloWorld/CMakeFiles/clean-all.dir
-/testgit/HelloWorld/CMakeFiles/install.dir
-/testgit/HelloWorld/CMakeFiles/list_install_components.dir
-/testgit/HelloWorld/CMakeFiles/test_say_hello.dir
-/testgit/HelloWorld/CMakeFiles/helloworld.dir
