@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/testgit/HelloWorld/src/main.c
+stdio.h
+-
+stdlib.h
+-
+say_hello.h
+/testgit/HelloWorld/src/say_hello.h
+
+/testgit/HelloWorld/src/say_hello.h
+

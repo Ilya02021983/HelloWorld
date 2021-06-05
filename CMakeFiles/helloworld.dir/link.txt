@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall  -rdynamic CMakeFiles/helloworld.dir/src/main.c.o CMakeFiles/helloworld.dir/src/say_hello.c.o  -o out/helloworld 
