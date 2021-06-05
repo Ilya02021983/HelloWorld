@@ -4,7 +4,6 @@
 #include <stdlib.h>
 #include <string.h> 
 
-
 int main() {
 char* check_word = "everyone";
 char* hello_pre_str = "Hello ";
@@ -17,13 +16,10 @@ comp_str = say_hello(check_word);
 if (strcmp(assert_str, comp_str) == 0)
 {
   printf("Unit test name 1: test result SUCCESS\n");
-
 }
 else {
  printf("Unit test name 1: test result FAILED\n");
 }
-printf("%s\n", assert_str);
-printf("%s\n", say_hello(check_word));
 free(hello_str);
 return 0;
 }
