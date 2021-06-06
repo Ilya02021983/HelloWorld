@@ -22,7 +22,7 @@ int main(int argc, char* argv[])
     }
     else
     {
-        printf("<Unit test name 1: test result FAILED\\>\n");
+        printf("<Unit test name %s: test result FAILED\\>\n", argv[1]);
         return 1;
     }
 }
