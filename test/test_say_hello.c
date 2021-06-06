@@ -15,12 +15,12 @@ assert_str = strcat(hello_str, check_word);
 comp_str = say_hello(check_word);
 if (strcmp(assert_str, comp_str) == 0)
 {
- printf("<Unit test name 1: test result SUCCESS\/>\n");
+ printf("<Unit test name 1: test result SUCCESS/>\n");
  free(hello_str);
  return 0; 
 }
 else {
- printf("<Unit test name 1: test result FAILED\/>\n");
+ printf("<Unit test name 1: test result FAILED/>\n");
  return 1;
 }
 }
