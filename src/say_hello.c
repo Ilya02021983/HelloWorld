@@ -4,7 +4,7 @@
 #include "say_hello.h"
 
 char *say_hello(char *name) {
-    char* hello_pre = "Hello ";
+    char* hello_pre = "Hrello ";
     char* hello = (char*) malloc(strlen(hello_pre) + strlen(name) + 1);
     strcpy(hello, hello_pre);
     strcat(hello, name);
