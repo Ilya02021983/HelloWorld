@@ -9,9 +9,9 @@ int main(int argc, char* argv[])
     char* check_word = "everyone";
     char* hello_pre_str = "Hello ";
     char* hello_str = (char*) malloc(strlen(hello_pre_str) + strlen(check_word) + 1);
-    strcpy(hello_str, hello_pre_str);
     char* assert_str;
     char* comp_str;
+    strcpy(hello_str, hello_pre_str);
     assert_str = strcat(hello_str, check_word);
     comp_str = say_hello(check_word);
     if (strcmp(assert_str, comp_str) == 0)
