@@ -6,7 +6,7 @@
 
 int main() {
 char* check_word = "everyone";
-char* hello_pre_str = "Hello ";
+char* hello_pre_str = "Heello ";
 char* hello_str = (char*) malloc(strlen(hello_pre_str) + strlen(check_word) + 1);
 strcpy(hello_str, hello_pre_str);
 char* assert_str; 
