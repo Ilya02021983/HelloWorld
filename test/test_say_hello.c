@@ -7,7 +7,7 @@
 int main(int argc, char* argv[])
 {
     char* check_word = "everyone";
-    char* hello_pre_str = "Hello ";
+    char* hello_pre_str = "Hewllo ";
     char* hello_str = (char*) malloc(strlen(hello_pre_str) + strlen(check_word) + 1);
     char* assert_str;
     char* comp_str;
