@@ -3,9 +3,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h> 
-#include <iostream> 
-#include <fstream>
-using namespace std;
 
 int main() {
 char* check_word = "everyone";
@@ -16,11 +13,6 @@ char* assert_str;
 char* comp_str; 
 assert_str = strcat(hello_str, check_word);
 comp_str = say_hello(check_word);
-
-ofstream report_file("test.txt");
-report_file<<"This is a test."<<endl;
- 
- 
 if (strcmp(assert_str, comp_str) == 0)
 {
  printf("<Unit test name 1: test result SUCCESS\\\>\n");
