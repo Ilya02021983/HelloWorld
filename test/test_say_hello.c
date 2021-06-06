@@ -20,7 +20,7 @@ if (strcmp(assert_str, comp_str) == 0)
  return 0; 
 }
 else {
- printf("<Unit test name 1: test result FAILED/>n");
+ printf("<Unit test name 1: test result FAILED/>\n");
  return 1;
 }
 }
